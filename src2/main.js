@@ -8,7 +8,6 @@ Vue.config.productionTip = false
 import ElementUI from 'element-ui'
 Vue.use(ElementUI)
 Vue.component('customIndex',customIndex)
-
 new Vue({
   router,
   render: h => h(App),
